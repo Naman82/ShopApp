@@ -27,7 +27,18 @@ class MyApp extends StatelessWidget {
           ),
           prefixIconColor: Color.fromRGBO(119, 119, 119, 1),
         ),
+        appBarTheme: const AppBarTheme(
+          titleTextStyle: TextStyle(
+            fontSize: 20,
+            color: Colors.black,
+          ),
+          centerTitle: true,
+        ),
         textTheme: const TextTheme(
+          titleLarge: TextStyle(
+            fontSize: 32,
+            fontWeight: FontWeight.bold,
+          ),
           titleMedium: TextStyle(
             fontSize: 20,
             fontWeight: FontWeight.bold,
